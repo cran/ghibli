@@ -16,22 +16,15 @@ par(mfrow=c(7,3))
 for(i in names(ghibli_palettes)) print(ghibli_palette(i))
 
 
-## ---- ggplot 1-----------------------------------------------------------
+## ---- ggplot-marnie------------------------------------------------------
 
 library(ggplot2)
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
-  geom_point(size = 3) +
+  geom_jitter(size = 3) +
   scale_color_manual(values = rev(ghibli_palette("MarnieMedium1"))) +
-  theme_grey()
+  theme_minimal() +
+  labs(title="Marnie Medium (1) Palette Test",
+       subtitle="A plot that is only useful for demonstration purposes")
 
-## ---- ggplot 2-----------------------------------------------------------
-
-ggplot(airquality, aes(x=Day, y=Month)) +
-  geom_tile(aes(fill=Temp)) +
-  scale_fill_gradientn(colours = ghibli_palette("MononokeMedium", 21, type = "continuous")) +
-  scale_x_discrete(expand = c(0, 0)) +
-  scale_y_discrete(expand = c(0, 0)) +
-  coord_equal() +
-  theme(legend.position = "top")
 
