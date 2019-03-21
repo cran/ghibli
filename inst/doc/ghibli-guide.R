@@ -22,7 +22,7 @@ library(ggplot2)
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_jitter(size = 3) +
-  scale_color_manual(values = rev(ghibli_palette("MarnieMedium1"))) +
+  scale_colour_ghibli_d("MarnieMedium1") +
   theme_minimal() +
   labs(title="Marnie Medium (1) Palette Test",
        subtitle="A plot that is only useful for demonstration purposes")
