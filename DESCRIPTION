@@ -5,9 +5,10 @@ Description: Colour palettes inspired by Studio Ghibli <https://en.wikipedia.org
 Authors@R: c(
     person("Ewen", "Henderson", email = "ewenhenderson@gmail.com", role = c("aut", "cre"),
     comment = c(ORCID = "0000-0002-4748-4693")),
-    person("Danielle", "Desrosiers", role = "ctb")
+    person("Danielle", "Desrosiers", role = "ctb"),
+    person("Michael", "Chirico", role = "ctb")
     )
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 2.10)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -19,9 +20,10 @@ BugReports: https://github.com/ewenme/ghibli/issues
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-09-02 19:39:13 UTC; Ewen
+Packaged: 2020-02-12 23:00:35 UTC; Ewen
 Author: Ewen Henderson [aut, cre] (<https://orcid.org/0000-0002-4748-4693>),
-  Danielle Desrosiers [ctb]
+  Danielle Desrosiers [ctb],
+  Michael Chirico [ctb]
 Maintainer: Ewen Henderson <ewenhenderson@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-09-02 19:50:02 UTC
+Date/Publication: 2020-02-13 05:30:02 UTC
