@@ -1,4 +1,4 @@
-## ---- echo = FALSE, message = FALSE--------------------------------------
+## ---- echo = FALSE, message = FALSE-------------------------------------------
 require(ghibli)
 
 knitr::opts_chunk$set(
@@ -9,14 +9,14 @@ knitr::opts_chunk$set(
  collapse = TRUE,
  fig.width = 5)
 
-## ----palettes------------------------------------------------------------
+## ----palettes-----------------------------------------------------------------
 
 # see palette names and colours
 par(mfrow=c(7,3))
 for(i in names(ghibli_palettes)) print(ghibli_palette(i))
 
 
-## ---- ggplot-marnie------------------------------------------------------
+## ---- ggplot-marnie-----------------------------------------------------------
 
 library(ggplot2)
 
