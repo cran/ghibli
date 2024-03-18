@@ -1,7 +1,7 @@
-7b518613744b909c013fa29d225e3e30 *DESCRIPTION
+11b6825f876809ba6ece14b3749f524c *DESCRIPTION
 e6a2cdb076dd425702896435c8f2dfc6 *LICENSE
 b0215a7c35402b3af70d2bd5d39cbf13 *NAMESPACE
-c0c1770b35e065b0057b41b22fbbaf30 *NEWS.md
+fbf6dd1783968c2efb9f2b1bc82c9799 *NEWS.md
 5ec28859f07a04200d4ce610b08871cb *R/data.R
 e24172b955b49788efdb6218377228fb *R/ghibli-package.R
 ed4024c6f9d555fa78d383df1ede15ba *R/onLoad.R
@@ -11,7 +11,7 @@ b862529bf04398e8a731d7b651d38c21 *build/vignette.rds
 ff79aea2a5d44f662646a4c4178d35d4 *data/ghibli_palettes.rda
 d7864f3e7bd98a8b1d3e7cdb2db34043 *inst/doc/ghibli.R
 2146d719b4811bb84a992b3c4fd2481e *inst/doc/ghibli.Rmd
-d7ebafc5d6449eadebfcf8928ed5d86a *inst/doc/ghibli.html
+930936e44f6c617fdec60af5375a7eda *inst/doc/ghibli.html
 c85c4e546db4cc30d5f23ed18bf11414 *inst/extdata/palettes.yml
 84fd98f547868faa69b6a607498277e3 *man/figures/README-ggplot2-eg-1.png
 094f93a4de0fc87d984fc169398cb198 *man/figures/README-palettes-1.png
@@ -27,5 +27,5 @@ c8b15a2051ae4a0e9f571ec616066105 *man/ggplot2-scales-continuous.Rd
 7782c58c6b6a490e84584f50f09e4280 *man/ghibli_palette.Rd
 c2628d8f775875d223545e001742fb1b *man/ghibli_palettes.Rd
 e26ae04ae6a5f649c59ae167b9f44020 *tests/testthat.R
-428ea787d1b0375f9cde1ec1bf82d2a7 *tests/testthat/test-scales.R
+7a5294e27caced55300cd4390a00354b *tests/testthat/test-scales.R
 2146d719b4811bb84a992b3c4fd2481e *vignettes/ghibli.Rmd
